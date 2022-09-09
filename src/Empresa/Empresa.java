@@ -58,7 +58,7 @@ public class Empresa {
         }                                                   
     }
 
-    private float calculoICMSsobreCOFINS(){ return (calculoICMS() * calculoCOFINS()) / (calculoFornecimento()*10) ;}
+    private float calculoICMSsobreCOFINS(){ return (calculoICMS() * calculoCOFINS()) / (calculoFornecimento()) ;}
 
     private float calculoICMSsobrePIS_PASEP(){ return (calculoICMS() *calculoPIS_PASEP()) / (calculoFornecimento());}
 
